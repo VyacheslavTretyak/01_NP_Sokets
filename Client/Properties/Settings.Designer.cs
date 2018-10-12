@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace StreetClient.Properties
+namespace Client.Properties
 {
 
 

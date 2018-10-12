@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28010.2041
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibServer", "LibServer\LibServer.csproj", "{6C2D0916-E39A-4142-B95D-A544619F425F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StreetServer", "LibServer\StreetServer.csproj", "{6C2D0916-E39A-4142-B95D-A544619F425F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibClient", "LibClient\LibClient.csproj", "{B618FC99-A441-445E-BD0E-86DB9598E40E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StreetClient", "LibClient\StreetClient.csproj", "{B618FC99-A441-445E-BD0E-86DB9598E40E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClientConsole", "ClientConsole\ClientConsole.csproj", "{AEEF68C6-78FC-4C95-BE61-4AE91FE06FD8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{B618FC99-A441-445E-BD0E-86DB9598E40E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B618FC99-A441-445E-BD0E-86DB9598E40E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B618FC99-A441-445E-BD0E-86DB9598E40E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AEEF68C6-78FC-4C95-BE61-4AE91FE06FD8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AEEF68C6-78FC-4C95-BE61-4AE91FE06FD8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AEEF68C6-78FC-4C95-BE61-4AE91FE06FD8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AEEF68C6-78FC-4C95-BE61-4AE91FE06FD8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

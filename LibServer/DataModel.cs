@@ -1,16 +1,14 @@
-namespace LibServer
+namespace StreetServer
 {
 	using System;
 	using System.Data.Entity;
 	using System.Linq;
 
-	public class Lib
+	public class StreetDB
 	{
 		public int Id { get; set; }
-		public string Title { get; set; }
-		public string Author { get; set; }
-		public int Pages { get; set; }
-		public int Year { get; set; }
+		public string Zip	 { get; set; }
+		public string Street { get; set; }		
 	}
 	public class DataModel : DbContext
 	{
@@ -21,14 +19,14 @@ namespace LibServer
 		// If you wish to target a different database and/or database provider, modify the 'DataModel' 
 		// connection string in the application configuration file.
 		public DataModel()
-			: base("name=LibServerDB")
+			: base("name=StreetServerDB")
 		{
 		}
 
 		// Add a DbSet for each entity type that you want to include in your model. For more information 
 		// on configuring and using a Code First model, see http://go.microsoft.com/fwlink/?LinkId=390109.
 
-		public virtual DbSet<Lib> LibSet{ get; set; }
+		public virtual DbSet<StreetDB> StreetSet{ get; set; }
 	}
 
 	//public class MyEntity
